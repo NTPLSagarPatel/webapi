@@ -3,6 +3,7 @@ webapi nest js / node
 
 # Executed below command to setup project
 git clone https://github.com/NTPLSagarPatel/webapi.git
+cd webapi
 npm install -g @nestjs/cli@latest
 npm i axios
 

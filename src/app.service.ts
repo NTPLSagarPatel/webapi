@@ -5,7 +5,7 @@ import axios from 'axios';
 export class AppService {
   async getPersonName(name: string): Promise<string> {
     let personName = '';
-    const apiURL = `http://localhost:53790/getPersonName/${name}`;
+    const apiURL = `http://localhost:5000/getPersonName/${name}`;
 
     try {
       const response = await axios.get(apiURL);
